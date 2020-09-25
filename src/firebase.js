@@ -1,9 +1,17 @@
+import firebase from 'firebase'
+
 const firebaseConfig = {
-    apiKey: "AIzaSyB5UfXCc1KNPByyur7SjLgSFScVaPj39oE",
-    authDomain: "whatsapp-mern-1cb72.firebaseapp.com",
-    databaseURL: "https://whatsapp-mern-1cb72.firebaseio.com",
-    projectId: "whatsapp-mern-1cb72",
-    storageBucket: "whatsapp-mern-1cb72.appspot.com",
-    messagingSenderId: "181439712725",
-    appId: "1:181439712725:web:9d9b90072dd0f7cfff815c"
-  };
+  apiKey: "AIzaSyBfTEFc6WPQlLrjoBnHxumzo48Cyly3TYE",
+  authDomain: "whatsapp-clone-76401.firebaseapp.com",
+  databaseURL: "https://whatsapp-clone-76401.firebaseio.com",
+  projectId: "whatsapp-clone-76401",
+  storageBucket: "whatsapp-clone-76401.appspot.com",
+  messagingSenderId: "782217557551",
+  appId: "1:782217557551:web:a70ebdc561d945807738da",
+  measurementId: "G-9SFM834K1R"
+};
+
+const firebase = firebase.initializeApp(firebaseConfig)
+const db= firebaseApp.firestore()
+const auth =firebase.auth()
+const 
